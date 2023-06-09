@@ -1,0 +1,96 @@
+:root{
+    /* Color palette */
+    --body-bg-color: #023047;
+    --input-bg-color: #8ecae6;
+    --button-color: #219ebc;
+    /* Font color platte */
+    
+
+}
+
+html, body{
+    background-color: var(--body-bg-color);
+    max-width: 390px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+h2{
+    text-align: center;
+    color:#ffffff ;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #ffffff;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input{
+    border-radius: 10px;
+    background-color: var(--input-bg-color);
+}
+
+form #endorsementInput{
+    height: 100px;
+    width: 344px;
+}
+
+form #submit{
+    height: 50px;
+    width: 344px;
+    background-color: var(--button-color);
+}
+
+.endorsements{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+}
+
+#endorsement{
+    background-color: #ffffff;
+    color: #222126;
+    height: 100%;
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 24px;
+}
+
+#to, #from{
+    font-weight: bold;
+}
+
+.bottomPair{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+     
+}
+
+/* #likes{
+    
+} */
+
+#freddie{
+    width: 100px;
+
+}
